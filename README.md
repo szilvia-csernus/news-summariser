@@ -3,7 +3,7 @@
 Streamlit App using the `OpenAI Assistants API` and the `News API`.
 
 
-
+![project-image](image.png)
 ---
 
 ## How to run this project?
@@ -11,8 +11,8 @@ Streamlit App using the `OpenAI Assistants API` and the `News API`.
 0. Prerequisites:
 
    - Make sure Python3 is installed.
-   - If you don't have an account with OpenAI, create one here: https://openai.com/
-   - Create a project API key under Dashboard / API keys
+   - If you don't have an account with OpenAI, create one here: https://openai.com/ then create a project API key under Dashboard / API keys.
+   - Create an account for News API here: https://newsapi.org/
 
 1. Clone the project.
 
@@ -35,8 +35,12 @@ Streamlit App using the `OpenAI Assistants API` and the `News API`.
 
    ```
    OPENAI_API_KEY=your-unique-opanai-project-key
-
+   NEWS_API_KEY=your-unique-news-api-key
    ```
+
+6. Run project in the integrated terminal:
+
+   `streamlit run main.py`
 
 
 ## Credits
