@@ -17,7 +17,7 @@ news_api_key = os.environ.get("NEWS_API_KEY")
 
 def get_news(topic: str):
   url = (
-    f"https://newsapi.org/v2/everything?q={topic}&apiKey={news_api_key}&pageSize=5"
+    f"https://newsapi.org/v2/everything?q={topic}&sortBy=publishedAt&apiKey={news_api_key}&pageSize=5"
   )
 
   try:
